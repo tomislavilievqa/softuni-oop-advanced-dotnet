@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Persons by Name and Age", "Sort Persons by Name and Age\Sort Persons by Name and Age.csproj", "{07866A0A-BC07-4692-A2FB-730C0170BF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryIncrease", "SalaryIncrease\SalaryIncrease.csproj", "{73CC2218-8449-48AC-AE52-6520AE4F6A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07866A0A-BC07-4692-A2FB-730C0170BF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07866A0A-BC07-4692-A2FB-730C0170BF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07866A0A-BC07-4692-A2FB-730C0170BF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07866A0A-BC07-4692-A2FB-730C0170BF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CC2218-8449-48AC-AE52-6520AE4F6A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CC2218-8449-48AC-AE52-6520AE4F6A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CC2218-8449-48AC-AE52-6520AE4F6A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CC2218-8449-48AC-AE52-6520AE4F6A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BA98496-C9D7-473F-BEDA-DE5AAEC0A626}
+	EndGlobalSection
+EndGlobal
