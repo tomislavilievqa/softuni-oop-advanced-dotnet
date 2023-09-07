@@ -20,7 +20,7 @@ namespace PersonsInfo
             for (int i = 0; i < lines; i++)
             {
                 var peopleDetails = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
-                var person = new Person(peopleDetails[0], peopleDetails[1], int.Parse(peopleDetails[2].Trim()), 100);//decimal.Parse(peopleDetails[3].Trim()));
+                var person = new Person(peopleDetails[0], peopleDetails[1], int.Parse(peopleDetails[2].Trim()), decimal.Parse(peopleDetails[3].Trim()));
                 persons.Add(person);
             }
             var percentage = decimal.Parse(Console.ReadLine());
