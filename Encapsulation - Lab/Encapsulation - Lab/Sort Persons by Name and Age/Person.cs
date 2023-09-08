@@ -13,31 +13,16 @@ namespace Sort_Persons_by_Name_and_Age
         public int Age { get; private set; }
         public decimal Salary { get; private set; }
 
-        public Person(string firstName, string lastName, int age, decimal salary)
+        public Person(string firstName, string lastName, int age)
         {
             this.LastName = lastName;
             this.FirstName = firstName;
             this.Age = age;
-            this.Salary = salary;
-        }
-
- 
-        public void IncreaseSalary(decimal percentage)
-        {
-            if (this.Age > 30)
-            {
-                this.Salary *= 1 + (percentage / 100.0M);
-            }
-            else
-            {
-                this.Salary += this.Salary * percentage / 200.0M;
-
-            }
-        }
+        }   
 
         public override string ToString()
         {
-            return $"{this.FirstName} {this.LastName} receives {this.Salary} leva";
+            return $"{this.FirstName} {this.LastName} is {this.Age} years old";
         }
     }
 }

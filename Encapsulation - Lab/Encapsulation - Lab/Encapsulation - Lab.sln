@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Persons by Name and Age", "Sort Persons by Name and Age\Sort Persons by Name and Age.csproj", "{07866A0A-BC07-4692-A2FB-730C0170BF79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort Persons by Name and Age", "Sort Persons by Name and Age\Sort Persons by Name and Age.csproj", "{07866A0A-BC07-4692-A2FB-730C0170BF79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryIncrease", "SalaryIncrease\SalaryIncrease.csproj", "{73CC2218-8449-48AC-AE52-6520AE4F6A9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryIncrease", "SalaryIncrease\SalaryIncrease.csproj", "{73CC2218-8449-48AC-AE52-6520AE4F6A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation of Data", "Validation of Data\Validation of Data.csproj", "{7EE383AA-5A7B-423D-BD87-D70DE3C2E033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{73CC2218-8449-48AC-AE52-6520AE4F6A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CC2218-8449-48AC-AE52-6520AE4F6A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CC2218-8449-48AC-AE52-6520AE4F6A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE383AA-5A7B-423D-BD87-D70DE3C2E033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE383AA-5A7B-423D-BD87-D70DE3C2E033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE383AA-5A7B-423D-BD87-D70DE3C2E033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE383AA-5A7B-423D-BD87-D70DE3C2E033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
