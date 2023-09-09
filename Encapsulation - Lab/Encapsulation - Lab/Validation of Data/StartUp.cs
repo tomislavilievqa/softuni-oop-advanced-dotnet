@@ -6,10 +6,11 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Validation_of_Data;
 
 namespace PersonsInfo
 {
-    internal class StartUp
+    public class StartUp
     {
 
         public static void Main(string[] args)

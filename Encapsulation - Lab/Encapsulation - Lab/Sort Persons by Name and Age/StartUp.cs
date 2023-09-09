@@ -10,7 +10,7 @@ using Sort_Persons_by_Name_and_Age;
 
 namespace PersonsInfo
 {
-    internal class StartUp
+    public class StartUp
     {
 
         public static void Main(string[] args)

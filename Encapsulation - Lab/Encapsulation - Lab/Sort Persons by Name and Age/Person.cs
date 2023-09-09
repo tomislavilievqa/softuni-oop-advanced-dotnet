@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sort_Persons_by_Name_and_Age
 {
-    internal class Person
+    public class Person
     {
         public string FirstName { get; private set; }
         public string LastName { get; private set; }

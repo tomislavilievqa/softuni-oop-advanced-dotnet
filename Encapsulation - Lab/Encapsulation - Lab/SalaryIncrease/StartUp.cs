@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SalaryIncrease;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO.IsolatedStorage;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PersonsInfo
 {
-    internal class StartUp
+    public class StartUp
     {
 
         public static void Main(string[] args)
