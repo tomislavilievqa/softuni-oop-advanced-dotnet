@@ -25,10 +25,10 @@ namespace PizzaCalories
             }
             set 
             {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new Exception("Name cannot be empty");
-                }
+                //if (string.IsNullOrEmpty(value))
+                //{
+                //    throw new Exception("Name cannot be empty");
+                //}
                 name = value;
             }
 
@@ -42,10 +42,10 @@ namespace PizzaCalories
             }
             set 
             {
-                if (value < 0)
-                {
-                    throw new Exception("Money cannot be negative");
-                }
+                //if (value < 0)
+                //{
+                //    throw new Exception("Money cannot be negative");
+                //}
                 cost = value;
             }
         }

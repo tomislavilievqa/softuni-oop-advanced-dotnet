@@ -20,6 +20,10 @@ namespace PizzaCalories
             }
             set 
             {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("Name cannot be empty");
+                }
                 name = value;
             }
         }
@@ -31,31 +35,35 @@ namespace PizzaCalories
                 return money; 
             }
             set 
-            { 
+            {
+                if (value < 0)
+                {
+                    throw new Exception("Money cannot be negative");
+                }
                 money = value;
             }
         }
 
-        public IReadOnlyCollection<Product> BagOfProducts
-        {
-            get 
-            {
-                return bagOfProducts.AsReadOnly(); 
-            }
-            set
-            {
-                bagOfProducts = (List<Product>)value;
-                //if (true)
-                //{
+        //public IReadOnlyCollection<Product> BagOfProducts
+        //{
+        //    get 
+        //    {
+        //        return bagOfProducts.AsReadOnly(); 
+        //    }
+        //    set
+        //    {
+        //        bagOfProducts = (List<Product>)value;
+        //        //if (true)
+        //        //{
 
-                //}
+        //        //}
 
-                //return bagOfProducts;
-            }
-        }
+        //        //return bagOfProducts;
+        //    }
+        //}
         public Person(string name, decimal money)
         {
-            this.BagOfProducts = bagOfProducts;
+            this.bagOfProducts = new List<Product>();
             this.Name = name;
             this.Money = money;
         }
@@ -78,11 +86,11 @@ namespace PizzaCalories
         }
         public override string ToString()
         {
-            if(this.BagOfProducts.Count == 0)
+            if(this.bagOfProducts.Count == 0)
             {
                 return $"{this.Name} - Nothing bought";
             }
-            return $"{this.Name} - {string.Join(", ", this.BagOfProducts.Select(x => x.Name))}";
+            return $"{this.Name} - {string.Join(", ", this.bagOfProducts.Select(x => x.Name))}";
         }
 
     }
