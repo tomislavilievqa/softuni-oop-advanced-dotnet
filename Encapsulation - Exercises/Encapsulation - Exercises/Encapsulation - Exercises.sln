@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "AnimalFarm\AnimalFarm.csproj", "{9F3A2AD9-BD29-4728-B2DE-DF94C86E5B2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Box Data", "Class Box Data\Class Box Data.csproj", "{FBB80C34-40E2-47F5-AB38-254495CFCD64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Box Data", "Class Box Data\Class Box Data.csproj", "{FBB80C34-40E2-47F5-AB38-254495CFCD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping Spree", "Shopping Spree\Shopping Spree.csproj", "{BEF93791-B198-4AFF-8BB4-9468CC72D40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaCalories", "PizzaCalories\PizzaCalories.csproj", "{870251EB-417E-4418-9890-1DCEA9564BE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FBB80C34-40E2-47F5-AB38-254495CFCD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB80C34-40E2-47F5-AB38-254495CFCD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB80C34-40E2-47F5-AB38-254495CFCD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF93791-B198-4AFF-8BB4-9468CC72D40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF93791-B198-4AFF-8BB4-9468CC72D40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF93791-B198-4AFF-8BB4-9468CC72D40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF93791-B198-4AFF-8BB4-9468CC72D40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870251EB-417E-4418-9890-1DCEA9564BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870251EB-417E-4418-9890-1DCEA9564BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870251EB-417E-4418-9890-1DCEA9564BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870251EB-417E-4418-9890-1DCEA9564BE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
