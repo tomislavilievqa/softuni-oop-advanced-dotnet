@@ -12,7 +12,6 @@ namespace PizzaCalories
         public static void Main(string[] args)
         {
             
-
             try
             {
                 string[] peopleInput = Console.ReadLine().Split(";", StringSplitOptions.RemoveEmptyEntries).ToArray();
